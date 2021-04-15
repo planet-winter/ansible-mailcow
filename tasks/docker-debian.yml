@@ -31,9 +31,11 @@
     - apt-transport-https
     - ca-certificates
     - curl
+    - git
     - gnupg2
     - software-properties-common
-    - python-pip
+    - python3-setuptools
+    - python3-pip
 
 - name: Add Docker apt Debian key.
   apt_key:

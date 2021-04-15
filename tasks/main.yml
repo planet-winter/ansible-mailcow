@@ -26,6 +26,7 @@
   pip:
     name: docker-compose
     state: present
+    executable: pip3
 
 - name: Ensure git is installed (RancherOS/Alpine).
   apk:
